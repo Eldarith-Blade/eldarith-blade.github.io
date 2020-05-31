@@ -8,8 +8,8 @@
 
 body {
     background-color: #F0EAD6;  
-    color: #800000;
-    text-shadow: 0 0 5px #BF0000; 
+    color: #AB9C73;
+    text-shadow: 0 0 50px #F0EAD6; 
 }
 
 .title {
@@ -19,14 +19,27 @@ body {
 .wrapper {
     position: absolute; 
     margin: auto 0; 
-    margin-top: 60%; 
+    border: 20px solid #AB9C73;
+    margin-top: 55%; 
+    padding: 50px;
+    padding-bottom: 20px; 
     text-align: center; 
+    background-color: #D2BE96; 
+}
+
+.bg-color {
+    position: absolute; 
+    z-index: -1; 
+    width: 100%; 
+    height: 500px; 
+    background-color: #AB9C73; 
 }
 
 img {
     display: block; 
     position: absolute; 
     margin: 20px 200px; 
+    z-index: 10; 
 }
 
 .days-datestamp {
