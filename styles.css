@@ -70,7 +70,7 @@ i {
 .slide {
     position: relative;   
     display: none; 
-    width: 5%;
+    width: 180px;
     height: 50%;
     border-radius: 5%;  
 }
