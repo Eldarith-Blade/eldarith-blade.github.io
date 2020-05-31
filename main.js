@@ -15,19 +15,19 @@ function reveal() {
     }
 
     slides[slide_index-1].style.display = "block";
-    setTimeout(reveal, 20000);
+    setTimeout(reveal, 7000);
 }
 
-let state = 0;
+let stateofsel = 0;
 
 document.querySelector('.fas').onclick = function () {
-    if(state == 0) {
+    if(stateofsel == 0) {
      let audio = document.getElementById("audio");
     audio.play();
-    state++; 
+    stateofsel++; 
     } else { 
         let audio = document.getElementById("audio");
     audio.pause();
-    state--; 
+    stateofsel--; 
     }
 }
