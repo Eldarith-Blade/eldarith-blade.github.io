@@ -1,0 +1,32 @@
+* {
+    margin: 0; 
+    padding: 0; 
+    font-family: Arial;
+    font-size: 100px; 
+    overflow: hidden; 
+}
+
+body {
+    background-color: #F0EAD6;  
+    color: #000080;
+    text-shadow: 0 0 5px #0000BF; 
+}
+
+.title {
+    margin-bottom: 60px; 
+}
+
+.wrapper {
+    position: absolute; 
+    margin: auto 0; 
+    margin-top: 50%; 
+    text-align: center; 
+}
+
+.days-datestamp {
+    margin: 120px; 
+}
+
+.time-datestamp {
+    margin: 120px; 
+}
