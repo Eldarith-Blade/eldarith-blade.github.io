@@ -34,7 +34,7 @@ body {
 }
 
 iframe { 
-    visibility: hidden; 
+    z-index: 1000;  
 }
 .bg-color {
     position: absolute; 
