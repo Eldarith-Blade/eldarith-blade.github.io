@@ -172,8 +172,8 @@ li {
 
 @media (min-width: 1000px) {
     i {
-        left: 100px; 
-        top: 7%; 
+        left: 70px; 
+        top: 10%; 
         position: absolute; 
         z-index: 100; 
         font-size: 60px; 
@@ -220,14 +220,12 @@ li {
         font-size: 70px; 
     }
     
-    .slideshow-container {
-        display: block; 
+    .slideshow-container { 
         position: absolute;
-        left: 20%; 
-        top: 10%;  
+        left: 0%; 
+        top: -10%;  
         width: 100vw;
-        height: 100vh;  
-        margin-top: 0;  
+        margin-top: 100px;  
     }
     
     .slide {
@@ -237,6 +235,9 @@ li {
         height: 50%;
         border-radius: 5%; 
         z-index: -1000;  
+    }
+
+    .slide img {
     }
     
     .sliding {
@@ -254,13 +255,13 @@ li {
     }
     
     @keyframes slide {
-        from{top: 100%}
-        to{bottom: -90%}
+        from{left: 100%}
+        to{left: -90%}
     }
     
     .spotify-container {
-        width: 100%; 
-        height: 100px; 
+        width: 10%; 
+        height: 1000px; 
         margin-top: 0; 
         background-color: #1DA1F2;
         border-top: 50px solid #81caf8;
@@ -278,4 +279,21 @@ li {
     #confetti-canvas {
         width: 100vw; 
     } 
+    .dropdown-music {
+        position:absolute; 
+        background-color: #1DA1F2;
+        padding: 40px;
+        left: 10%; 
+        top: 5%; 
+        height: 600px; 
+        width: 300px; 
+        z-index: 1000;
+        color: #fff; 
+        border: 5px dashed #81caf8;
+        border-radius: 20px; 
+        display: none; 
+    }
+    li {
+        padding: 25px; 
+    }
 }
