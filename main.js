@@ -18,10 +18,10 @@ function reveal() {
     setTimeout(reveal, 20000);
 }
 
-let state = 0 
+let state = 0;
 
 document.querySelector('.fas').onclick = function () {
-    if(state = 0) {
+    if(state == 0) {
      let audio = document.getElementById("audio");
     audio.play();
     state++; 
