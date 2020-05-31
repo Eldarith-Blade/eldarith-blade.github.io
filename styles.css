@@ -24,7 +24,13 @@ body {
     padding: 50px;
     padding-bottom: 20px; 
     text-align: center; 
-    background-color: #D2BE96; 
+    background: repeating-linear-gradient(
+    45deg,
+    #D2BE9699,
+    #D2BE9699 10px,
+    #AB9C7399 10px,
+    #AB9C7399 20px
+);
 }
 
 .bg-color {
@@ -33,6 +39,8 @@ body {
     width: 100%; 
     height: 500px; 
     background-color: #AB9C73; 
+    outline: 20px dashed #D2BE96BB;
+    outline-offset: -20px;
 }
 
 img {
