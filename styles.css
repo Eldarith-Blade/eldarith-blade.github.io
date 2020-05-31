@@ -34,6 +34,8 @@ body {
 }
 
 iframe { 
+    position: absolute; 
+    margin-top: 155%;
     z-index: 1000;  
 }
 .bg-color {
