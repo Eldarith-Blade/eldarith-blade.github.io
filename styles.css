@@ -33,6 +33,10 @@ body {
 );
 }
 
+iframe {
+    visibility: hidden; 
+}
+
 .bg-color {
     position: absolute; 
     z-index: -1; 
