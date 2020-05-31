@@ -18,16 +18,72 @@ function reveal() {
     setTimeout(reveal, 7000);
 }
 
-let stateofsel = 0;
+let menu_state = 0;
+let paused = 0; 
+
+
 
 document.querySelector('.fas').onclick = function () {
-    if(stateofsel == 0) {
-     let audio = document.getElementById("audio");
-    audio.play();
-    stateofsel++; 
-    } else { 
-        let audio = document.getElementById("audio");
-    audio.pause();
-    stateofsel--; 
+    if(menu_state == 0) {
+     let dropdown_menu = document.querySelector(".dropdown-music");
+     dropdown_menu.style.display = "inline";
+     menu_state++; 
+     } else { 
+        let dropdown_menu = document.querySelector(".dropdown-music");
+        dropdown_menu.style.display = "none";
+        menu_state--; 
+        messA.pause();
+        carryA.pause(); 
+        bloodA.pause();
+        truthA.pause();
+        treesA.pause();
     }
 }
+
+let mess = document.querySelector(".mess"); 
+let messA = document.querySelector(".messA");
+let carry = document.querySelector(".carry"); 
+let carryA = document.querySelector(".carryA");
+let blood = document.querySelector(".blood"); 
+let bloodA = document.querySelector(".bloodA");
+let truth = document.querySelector(".truth"); 
+let truthA = document.querySelector(".truthA");
+let trees = document.querySelector(".trees"); 
+let treesA = document.querySelector(".treesA");
+
+
+mess.addEventListener("click", function() {
+       messA.play();
+       carryA.pause(); 
+       bloodA.pause();
+       truthA.pause();
+       treesA.pause();
+})
+carry.addEventListener("click", function() {
+        messA.pause();
+        carryA.play(); 
+        bloodA.pause();
+        truthA.pause();
+        treesA.pause();  
+})
+blood.addEventListener("click", function() {
+        messA.pause();
+       carryA.pause(); 
+       bloodA.play();
+       truthA.pause();
+       treesA.pause();
+})
+truth.addEventListener("click", function() {
+        messA.pause();
+       carryA.pause(); 
+       bloodA.pause();
+       truthA.play();
+       treesA.pause();
+})
+trees.addEventListener("click", function() {
+        messA.pause();
+       carryA.pause(); 
+       bloodA.pause();
+       truthA.pause();
+       treesA.play();
+})
