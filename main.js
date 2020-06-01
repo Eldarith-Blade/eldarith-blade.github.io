@@ -32,11 +32,6 @@ document.querySelector('.fas').onclick = function () {
         let dropdown_menu = document.querySelector(".dropdown-music");
         dropdown_menu.style.display = "none";
         menu_state--; 
-        messA.pause();
-        carryA.pause(); 
-        bloodA.pause();
-        truthA.pause();
-        treesA.pause();
     }
 }
 
