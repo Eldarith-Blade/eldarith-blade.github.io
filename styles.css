@@ -172,8 +172,8 @@ li {
 
 @media (min-width: 1000px) {
     i {
-        left: 70px; 
-        top: 10%; 
+        left: 4vw; 
+        top: 10vh; 
         position: absolute; 
         z-index: 100; 
         font-size: 60px; 
@@ -225,7 +225,7 @@ li {
         left: 0%; 
         top: -10%;  
         width: 100vw;
-        margin-top: 100px;  
+        margin: 20vh; 
     }
     
     .slide {
@@ -260,8 +260,8 @@ li {
     }
     
     .spotify-container {
-        width: 10%; 
-        height: 1000px; 
+        width: 10vw; 
+        height: 100vh; 
         margin-top: 0; 
         background-color: #1DA1F2;
         border-top: 50px solid #81caf8;
