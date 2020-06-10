@@ -10,10 +10,7 @@
     <link rel="stylesheet" href="css/content.css">
     <link rel="stylesheet" href="css/table.css">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <script defer src="scripts/main.js"></script>
-    <script defer src="scripts/content.js"></script>
-    <script defer src="scripts/animation.js"></script>
-    <script defer src="node_modules/mustache/mustache.min.js"></script>
+    <script defer type="module" src="scripts/main.js"></script>
 </head>
 <body>
     <header class="nav-wrapper">
@@ -36,11 +33,12 @@
     </header>
     <main class="content-wrapper">
         <div class="data-search-wrapper">
-            <input type="text" name="searchbar" id="searchbar" >
+            <input type="text" name="searchbar" id="searchbar">
+            <i class="fa fa-search" aria-hidden="true"></i>
         </div>
         <div class="table-view">
             <div class="table-render">
-                <table>
+                <table id="data-view">
                     <thead>
                         <tr>
                             <th>id</th>
@@ -57,6 +55,7 @@
         </div>
         <div class="frame-view">
             <div class="image-render">
+                <h1 id="name-view"></h1>
                 <img id="card-image" src="" alt="Scryfall:Image">
                 <input type="text" name="price-alter" id="price-alter">
             </div>   
@@ -64,6 +63,12 @@
     </main>
     <footer class="nav-table">
         <div class="symbols-wrapper">
+            <i class="fa fa-caret-left" aria-hidden="true"></i>
+            <p>0-10</p>
+            <i class="fa fa-caret-right" aria-hidden="true"></i>
+        </div>
+        <div class="document-view">
+
         </div>
     </footer>
 </body>
