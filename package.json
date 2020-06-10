@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Eldarith-Blade/eldarith-blade.github.io#readme",
   "dependencies": {
+    "gsap": "^3.3.1",
     "mustache": "^4.0.1"
   }
 }

@@ -71,23 +71,20 @@ export function fetchRowInsertion() {
     }
 
 export function filterSearch() {
-    let input, filter, table, tr, td, i, value; 
+    
+    let filter = document.querySelector('#searchbar').value.toUpperCase();
+    let rows = document.querySelector('tbody').rows;
 
-    input = document.querySelector('#searchbar');
-    filter = input.value.toUpperCase(); 
-    table = document.querySelector('#data-view');
-    tr = table.querySelectorAll('tr'); 
-
-    for(i = 0; i < tr.length; i++) {
-        td = tr[i].querySelectorAll('td')[1];
-        if(td) {
-            value = td.innerHTML; 
-            if(value.toUpperCase().indexOf(filter) > -1) {
-                tr[i].style.display = "";
-            } else {
-                tr[i].style.display = "none";
-            }
-        }
+    for (var i = 0; i < rows.length; i++) {
+        let firstCol = rows[i].cells[0].textContent.toUpperCase();
+        let secondCol = rows[i].cells[1].textContent.toUpperCase();
+        let thirdCol = rows[i].cells[2].textContent.toUpperCase();
+        let fourthCol = rows[i].cells[3].textContent.toUpperCase();
+        if (firstCol.indexOf(filter) > -1 || secondCol.indexOf(filter) > -1 || thirdCol.indexOf(filter) > -1 || fourthCol.indexOf(filter) > -1) {
+            rows[i].style.display = "";
+        } else {
+            rows[i].style.display = "none";
+        }      
     }
 }
   

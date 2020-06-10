@@ -1,9 +1,9 @@
 @import url('');
 
 :root {
-    --primary-colour: 
-    --secondary-colour:
-    --tertiary-color: 
+    --primary-colour: #CB1313;
+    --secondary-colour: #F5F5F5;
+    --tertiary-color: #2E2E2E;
 }
 
 body {
