@@ -1,0 +1,22 @@
+{
+  "name": "kortspel",
+  "version": "0.0.1",
+  "description": "kortspel is a web application used to fetch magic the gathering card data from an external server to facilitate the need for a platform that contains downloadable bulk data in a simplistic format",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eldarith-Blade/eldarith-blade.github.io.git"
+  },
+  "author": "Elias Hastad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Eldarith-Blade/eldarith-blade.github.io/issues"
+  },
+  "homepage": "https://github.com/Eldarith-Blade/eldarith-blade.github.io#readme",
+  "dependencies": {
+    "mustache": "^4.0.1"
+  }
+}
