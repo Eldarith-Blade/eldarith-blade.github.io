@@ -3,7 +3,7 @@ table {
     text-transform: uppercase; 
     text-align: center; 
     border-collapse: collapse; 
-    table-layout: auto; 
+    table-layout: fixed; 
     max-width: 20vh;
 }
 

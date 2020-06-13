@@ -35,7 +35,7 @@
     display: flex; 
     flex-flow: row nowrap; 
     justify-content: space-between; 
-    align-items: flex-start; 
+    align-items: flex-start;
 }
 
 
@@ -55,11 +55,14 @@
 
 /*image rendering proportions*/
 .frame-view {
+    padding: 2em; 
+    margin: 0em 5em 0 0; 
     display: flex; 
     flex-flow: column nowrap;
     justify-content: center; 
     align-items: center; 
-    margin: 3em 10em 0 0;  
+    border: 0.2em inset var(--primary-colour); 
+    border-radius: 2em; 
 }
 
 img {
@@ -78,7 +81,7 @@ img {
 
 @media (max-width: 1800px) {
     .frame-view {
-        margin: 3em 0 0 0;  
+        margin: 0em 0 0 0;  
     }
 } 
 

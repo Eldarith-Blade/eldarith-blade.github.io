@@ -69,6 +69,7 @@
     list-style-type: none; 
     align-items: center;
     background-color: #AD0E0E;
+    border: 0.2em ridge #FFF;
 }
 
 .split-menu li { 
