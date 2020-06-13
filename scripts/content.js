@@ -47,8 +47,8 @@ export function fetchRowInsertion() {
                         nameArr.push(card.name);
                         priceArr.push(card.price);
 
-                        document.querySelector('#card-image').src = imgArr[0];
-                        document.querySelector('#name-view').innerHTML = nameArr[0];
+                        document.querySelector('#card-image-render').src = imgArr[0];
+                        document.querySelector('#name-render').innerHTML = nameArr[0];
                         document.querySelector('#price-alter').value = priceArr[0];
 
                         if(parsed.prices.usd != null) {
