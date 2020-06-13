@@ -3,6 +3,15 @@
     color: var(--secondary-colour);
 }
 
+.menu-items-container li:hover {
+   color: var(--tertiary-colour);
+}
+
+.split-menu li:hover {
+    color: var(--primary-colour);
+    background-color: var(--secondary-colour);
+}
+
 tr:hover {
     background-color: var(--primary-colour);
     color: var(--secondary-colour);

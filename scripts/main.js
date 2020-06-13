@@ -31,10 +31,10 @@ collapse.addEventListener('click', () => {
 downloads.addEventListener('click', () => {
     if(splitCollapse == false) {
         split.style.display = 'flex';
-        splitcollapsed = true; 
+        splitCollapse = true; 
     } else {
         split.style.display = 'none';
-        splitcollapsed = false; 
+        splitCollapse = false; 
     }
 })
 

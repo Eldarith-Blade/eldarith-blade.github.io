@@ -65,7 +65,7 @@ export function fetchRowInsertion() {
                         }
                     })
                 .catch(error => console.error(error));
-            }, 1100 * i); 
+            }, 400 * i); 
         }   
     }
 

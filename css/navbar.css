@@ -47,7 +47,6 @@
     list-style-type: none; 
     align-items: center; 
     text-align: center; 
-    transition: 2s ease-in-out; 
 }
 
 .menu-items-container li {
