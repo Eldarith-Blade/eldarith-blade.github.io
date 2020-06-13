@@ -1,22 +1,27 @@
 #update:hover {
     background-color: var(--primary-colour);
     color: var(--secondary-colour);
+    cursor: pointer;
 }
 
 .menu-items-container li:hover {
    color: var(--tertiary-colour);
+   cursor: pointer; 
 }
 
 .split-menu li:hover {
     color: var(--primary-colour);
     background-color: var(--secondary-colour);
+    cursor: pointer; 
 }
 
 tr:hover {
     background-color: var(--primary-colour);
     color: var(--secondary-colour);
+    cursor: pointer; 
 }
 
 td:hover {
     color: var(--secondary-colour);
+    cursor: pointer; 
 }
