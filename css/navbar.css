@@ -61,12 +61,13 @@
 }
 
 .split-menu { 
-    margin: 0.2em 0; 
-    padding: 0 0 1em 0; 
+    margin: 0.1em 0; 
+    padding: 3em 30em; 
     display: none; 
     flex-flow: column nowrap; 
     list-style-type: none; 
     align-items: center;
+    background-color: #AD0E0E;
 }
 
 .split-menu li { 

@@ -1,15 +1,14 @@
-import * as content from './content.js';
-import * as animation from './animation.js';
+import * as fetched from './classes/fetch.class.js';
 
 const update = document.querySelector('#update');
 const filtered = document.querySelector('#searchbar');
 
 update.addEventListener('click', () => {
-    content.fetchRowInsertion(); 
+    fetched.fetchRowInsertion(); 
 });
 
 filtered.addEventListener('keyup', () => {
-    content.filterSearch();
+    fetched.filterSearch();
 })
 
 
