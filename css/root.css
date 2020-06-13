@@ -11,5 +11,6 @@ body {
     margin: 0; 
     font-family: Montserrat, sans-serif, serif; 
     background-color: var(--secondary-colour);
+    box-sizing: border-box; 
     overflow: hidden; 
 }
