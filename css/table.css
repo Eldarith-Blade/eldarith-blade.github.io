@@ -28,6 +28,7 @@ th, td {
 }
 
 td {
+    width: 50%; 
     color: var(--tertiary-colour);
     font-weight: 600; 
 }
