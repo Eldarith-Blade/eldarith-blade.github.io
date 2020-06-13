@@ -29,6 +29,7 @@
     letter-spacing: 0.2em; 
     color: var(--primary-colour);
     background-color: var(--secondary-colour);
+    outline: none; 
 }
 
 .menu-container {

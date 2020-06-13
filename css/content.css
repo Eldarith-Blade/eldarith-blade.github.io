@@ -53,3 +53,33 @@
     margin: 0 2em; 
 }
 
+/*image rendering proportions*/
+.frame-view {
+    display: flex; 
+    flex-flow: column nowrap;
+    justify-content: center; 
+    align-items: center; 
+    margin: 3em 10em 0 0;  
+}
+
+img {
+    width: 15vw; 
+} 
+
+#price-alter {
+    margin: 1em 0 0 0;
+    font-size: 1.5rem; 
+    font-weight: 700; 
+    text-align:center;
+    border: 0.15em solid var(--primary-colour);
+    border-radius: 2em; 
+    outline: none;   
+}
+
+@media (max-width: 1800px) {
+    .frame-view {
+        margin: 3em 0 0 0;  
+    }
+} 
+
+

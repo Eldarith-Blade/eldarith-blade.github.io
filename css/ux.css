@@ -1,0 +1,13 @@
+#update:hover {
+    background-color: var(--primary-colour);
+    color: var(--secondary-colour);
+}
+
+tr:hover {
+    background-color: var(--primary-colour);
+    color: var(--secondary-colour);
+}
+
+td:hover {
+    color: var(--secondary-colour);
+}
